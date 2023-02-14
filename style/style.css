@@ -92,7 +92,6 @@ img.hover-shadow {
 .pagination {
     margin-top:50px;
 }
-
 .elenco li a {
     padding-left:15px;
     padding-right:15px;
@@ -171,4 +170,9 @@ img.hover-shadow {
 }
 .bg-soft-warning {
     background-color: rgba(249,213,112,.3);
+}
+.disabled-link {
+    opacity: .6;
+    cursor: default;
+    pointer-events: none;
 }
