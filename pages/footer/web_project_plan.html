@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Orlando Furioso</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="../../logo/logo.png"/>
+        <link rel="stylesheet" href="../../style/style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../logo/logo.png" alt="Orlando" width="50" height="50">
+              </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../introduzione.html">Introduzione</a>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group">
+                    <a class="nav-link" href="../edizioni_a_stampa/edizioni_a_stampa.html">Edizioni a stampa</a>
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split ps-0 border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../edizioni_a_stampa/subpages/edizioni_per_data.html">Per data</a></li>
+                      <li><a class="dropdown-item" href="../edizioni_a_stampa/subpages/edizioni_per_editore.html">Per editore</a></li>
+                      <li><a class="dropdown-item" href="../edizioni_a_stampa/subpages/edizioni_per_biblioteca.html">Per biblioteca</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group">
+                    <a class="nav-link" href="../manoscritti/manoscritti.html">Manoscritti</a>
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split ps-0 border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../manoscritti/subpages/manoscritti_per_argomento.html">Per argomento</a></li>
+                      <li><a class="dropdown-item" href="../manoscritti/subpages/manoscritti_per_biblioteca.html">Per biblioteca</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../bibliografia.html">Bibliografia</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <main class="container">
+          <h1 class="fs-2" style="padding-top:50px;">Il web project plan</h1>
+          <div>
+            <h2 class="fs-3">Brief</h2>
+            <h3 class="fs-5">Finalità e obiettivi</h3>
+            <p class="lead text-muted fs-6">
+              Il progetto consiste in un sito divulgativo collocato nell’ambito letterario. L’obiettivo di questo progetto è quello di offrire una panoramica del lavoro di revisione e dell’evoluzione editoriale di uno dei capisaldi della letteratura italiana: l’Orlando Furioso, di Ludovico Ariosto. Si tratta di una collezione di carattere comparativo delle prime e più importanti edizioni note del poema, a partire dai pochi manoscritti autografi a noi pervenuti fino alle più famose pubblicazioni a stampa, dotate di un apparato illustrativo di pregio.
+            </p>
+            <h3 class="fs-5">Pubblico di riferimento</h3>
+            <p class="lead text-muted fs-6">Il sito è pensato per un pubblico vasto: prevede una pagina di introduzione all’autore e all’opera, che renda accessibili a tutti le informazioni in seguito condivise. Rivolto quindi ai curiosi, agli studenti, ma anche agli esperti del settore, che hanno la possibilità di consultare le opere digitali per intero, laddove esistano, o venire direttamente reindirizzati ai cataloghi delle biblioteche di riferimento, per prenotarne eventualmente il prestito o la consultazione.</p>
+            <h3 class="fs-5">Accesso alla risorsa</h3>
+            <p class="lead text-muted fs-6">Idealmente, ogni item sarebbe dotato di un’immagine, ovvero la versione digitale del manoscritto stesso o l’anteprima digitale di un’edizione a stampa, seguita da una descrizione testuale. Non essendo tuttavia reperibili le immagini di ciascuno degli item esposti, nella pratica mi limiterò a realizzare qualche esempio. L’idea sarebbe quella di poter fornire i testi per intero, per concretizzare la quale, tuttavia, sarebbe necessario un antecedente lavoro di digitalizzazione delle opere che purtroppo non è in mio potere fare. Il sito è pensato per essere consultato da computer, dunque in versione desktop.</p>
+          </div>
+          <div>
+            <h2 class="fs-3">Benchmark</h2>
+            <p class="lead text-muted fs-6">Per quanto riguarda l’analisi dell’esistente, ho trovato particolarmente interessanti due risorse in particolare: <a class="text-decoration-none" href="https://www.alessandromanzoni.org/" title="alessandromanzoni.org" target="_blank">https://www.alessandromanzoni.org/</a> e <a class="text-decoration-none" href="https://workinprogress.sns.it/" title="Galassia Ariosto" target="_blank">https://workinprogress.sns.it/</a>. Il primo è un sito da cui ho tratto ispirazione a livello di idea e di design, sebbene l’interfaccia e la navigazione mi siano sembrate poco chiare e difficilmente fruibili da un utente base: la navigazione, infatti, avviene solo tramite ricerca e non fornisce la possibilità di visualizzare un’anteprima di tutti gli items. Il secondo è un sito che conoscevo già, un progetto realizzato dalla Scuola Normale Superiore di Pisa, che tuttavia al momento non è consultabile. Consiste in un archivio digitale dei maggiori poemi narrativi illustrati del ‘500-’600, navigabile per personaggi, per temi, per oggetti e per luoghi. L’ho trovato particolarmente accessibile, anche grazie alla linea temporale che racchiude tutte le edizioni presenti sul sito. Mentre questa risorsa si concentra sugli apparati illustrativi delle edizioni a stampa di opere multiple, mettendo in secondo piano l’aspetto testuale e contenutistico, il mio progetto è incentrato sull’evoluzione di una sola grande opera, a partire dalle prime testimonianze manoscritte fino ad arrivare alla versione definitiva, tramandata fino a noi.</p>
+            <img src="../../images/galassia_ariosto.png" style="width:600px; height:auto;" class="mx-auto d-block"/>
+          </div>
+          <div>
+            <h2 class="fs-3">Struttura</h2>
+            <div>
+              <h3 class="fs-5">Mappa concettuale</h3>
+              <a class="text-decoration-none btn btn-outline-primary" href="mappa_concettuale.pdf" title="Mappa concettuale">Scarica pdf</a>
+              <img src="../../images/mappa_concettuale.jpeg" style="width:800px; height:auto;" class="mx-auto d-block"/>
+            </div>
+            <div>
+              <h3 class="fs-5">Schema delle dipendenze</h3>
+              <a class="text-decoration-none btn btn-outline-primary" href="schema_delle_dipendenze.pdf" title="Schema delle dipendenze">Scarica pdf</a>
+              <img src="../../images/schema_delle_dipendenze.jpeg" style="width:800px; height:auto;" class="mx-auto d-block"/>
+            </div>
+            <div>
+              <h3 class="fs-5">Categorie di un item foglia</h3>
+              <p>
+                <ul class="lead text-muted fs-6">
+                  <li>nome</li>
+                  <li>autore</li>
+                  <li>data</li>
+                  <li>luogo di pubblicazione</li>
+                  <li>editore</li>
+                  <li>titolo completo</li>
+                  <li>codice SBN</li>
+                  <li>tipo di oggetto</li>
+                  <li>lingua</li>
+                  <li>ubicazione</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div>
+            <h2 class="fs-3">Layout</h2>
+            <h3 class="fs-5">Architettura d'interfaccia</h3>
+            <p class="lead text-muted fs-6">
+              La pagina è costituita da tre o quattro componenti principali: l’<strong>header</strong>, che coincide con la navbar e si trova sempre all’apice della pagina (sticky navbar), anche scrollando i contenuti; il <strong>body</strong>, che contiene i titoli, i paragrafi, le immagini; le barre di navigazione, tra cui la già citata navbar (navigazione principale) e una <strong>sidebar</strong> che funge da navigazione secondaria e compare solo quando ci si trova nella pagina di navigazione primaria; il <strong>footer</strong>, che reca le informazioni sul copyright e sulla data di creazione e le voci della metanavigazione e si trova nel piè di pagina.
+            </p>
+            <p class="lead text-muted fs-6">
+              Per quanto riguarda gli strumenti di navigazione, sono previsti:
+              <ul class="lead text-muted fs-6">
+                <li><strong>la navigazione principale</strong>: la navbar con cinque voci (Home, Introduzione, Edizioni a stampa, Manoscritti, Bibliografia), che reca anche il logo del sito, anch’esso con la funzione di link alla Home;</li>
+                <li><strong>la navigazione secondaria</strong>: una sidebar posta sempre sul lato sinistro, che compare solo nelle pagine di navigazione primaria che prevedono delle sottopagine di navigazione secondaria: la sezione delle Edizioni a stampa e la sezione dei Manoscritti. La navigazione secondaria propone dei modi diversi di navigare il catalogo, secondo le categorie da me ritenute più importanti: per data, per editore, per biblioteca; per argomento, per biblioteca;</li>
+                <li><strong>la navigazione contestuale</strong>: nella pagina dell’item, alcuni dei campi dei metadati sono anche dei link di navigazione contestuale: cliccando, ad esempio, sulla biblioteca, si passa direttamente alla navigazione “per biblioteca”, nella pagina della specifica istituzione cliccata;</li>
+                <li><strong>breadcrumbs</strong>: le briciole di pane sono presenti in tutte le pagine eccetto la Home e segnano il percorso compiuto per arrivare alla pagina corrente.</li>
+                <li><strong>metanavigazione</strong>: per quanto riguarda la metanavigazione, ritengo siano sufficienti le informazioni indicate nel footer: un contatto (mail istituzionale dell’autrice del sito), la bibliografia, che è anche pagina di navigazione primaria, e la pagina del Web Project Plan.</li>
+              </ul>
+            </p>
+            <h3 class="fs-5">Wireframe</h3>
+            <p class="lead text-muted fs-6">
+              <a class="text-decoration-none" href="wireframe.bmpr">Wireframe.bmpr</a>
+            </p>
+          </div>
+          <div>
+            <h2 class="fs-3">Usabilità</h2>
+            <p class="lead text-muted fs-6">
+              Per quanto riguarda lo stile, essendomi servita di Bootstrap ho utilizzato il font proposto, aggiungendo il grassetto per i <span class="nome">nomi di persone</span>, le <span class="data">date</span> e in generale le <strong>parole chiave</strong> e il corsivo per i <span class="titolo-opera">titoli delle opere</span>. Ho optato per uno stile essenziale e pulito, senza decorazioni superflue, per rendere il sito più facilmente fruibile; le sezioni testuali sono chiare e sempre accompagnate da delle immagini e dei sottotitoli per spezzare la lunghezza del paragrafo. Le pagine testuali (Introduzione, Edizioni a stampa, Manoscritti) vogliono essere di carattere più divulgativo e dunque fornire numerose informazioni, senza nessuna presupposta conoscenza dell’argomento; le pagine di navigazione della collezione, invece, presentano un’interfaccia intuitiva, dinamica e ricca di media.
+            </p>
+          </div>
+          <div>
+            <h2 class="fs-3">Servizi</h2>
+            <p class="lead text-muted fs-6">
+              Come strumenti di arricchimento mi sono servita di una linea temporale, delle breadcrumbs, di cards, di avatar (pagina degli Editori), della pagination (pagina delle Edizioni a stampa per biblioteche) e di alcune tabelle.
+            </p>
+            <p class="lead text-muted fs-6">
+              Come tools specifici per l’interazione, presi dal sito di <a class="text-decoration-none" href="https://www.w3schools.com/howto/default.asp" title="W3Schools How To" target="_blank">W3Schools HOWTO</a>, ho trovato particolarmente utili:
+              <ul class="lead text-muted fs-6">
+                <li>Images: Lightbox</li>
+                <li>Images: Hero image</li>
+                <li>Menus: Sidebar</li>
+                <li>Buttons: Animated buttons</li>
+                <li>Filters: Sort table</li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h2 class="fs-3">Bibliografia</h2>
+            <p class="lead text-muted fs-6">
+              Per le immagini mi sono servita delle seguenti risorse:
+              <ul class="lead text-muted fs-6 list-style-none">
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://live.staticflickr.com/3843/14755237936_0fc46230c3_c.jpg">https://live.staticflickr.com/3843/14755237936_0fc46230c3_c.jpg</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="http://www.engramma.it/eOS/index.php?id_articolo=2894">http://www.engramma.it/eOS/index.php?id_articolo=2894</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.gazzettaitalia.pl/lottava-doro-di-ludovico-ariosto/">https://www.gazzettaitalia.pl/lottava-doro-di-ludovico-ariosto/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="http://www.engramma.it/eOS/index.php?id_articolo=2894">http://www.engramma.it/eOS/index.php?id_articolo=2894</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.poetryintranslation.com/PITBR/Italian/AriostoCantoXXXVII.php">https://www.poetryintranslation.com/PITBR/Italian/AriostoCantoXXXVII.php</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="http://www.fondiantichi.unimo.it/fa/giustizia/bindoni.html">http://www.fondiantichi.unimo.it/fa/giustizia/bindoni.html</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.tertullian.org/editions/scinzenzeler.htm">https://www.tertullian.org/editions/scinzenzeler.htm</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/en/printer/a12170227">https://marques.crai.ub.edu/en/printer/a12170227</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.alamy.it/della-stampante-nel-dispositivo-di-gabriele-giolito-de-ferrari-1540-1546-giovanni-giolito-de-ferrari-1540-gabriele-giolito-de-ferrari-1546-giolitodevice-image184992203.html">https://www.alamy.it/della-stampante-nel-dispositivo-di-gabriele-giolito-de-ferrari-1540-1546-giovanni-giolito-de-ferrari-1540-gabriele-giolito-de-ferrari-1546-giolitodevice-image184992203.html</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/en/printer/a12566019">https://marques.crai.ub.edu/en/printer/a12566019</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/en/printer/a1161285x">https://marques.crai.ub.edu/en/printer/a1161285x</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.lotsearch.de/lot/ruini-carlo-anatomia-del-cavallo-infermita-et-suoi-rimedii-opera-nuova-45068887">https://www.lotsearch.de/lot/ruini-carlo-anatomia-del-cavallo-infermita-et-suoi-rimedii-opera-nuova-45068887</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/es/impresor/a12290002">https://marques.crai.ub.edu/es/impresor/a12290002</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://it.wikisource.org/wiki/Pagina:Ariosto_-_Orlando_furioso,_secondo_la_stampa_del_1532,_Roma_1913.djvu/657">https://it.wikisource.org/wiki/Pagina:Ariosto_-_Orlando_furioso,_secondo_la_stampa_del_1532,_Roma_1913.djvu/657</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/en/printer/a11615382">https://marques.crai.ub.edu/en/printer/a11615382</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.gonnelli.it/uk/auction-0017-1/boiardo-matteo-maria-orlando-innamorato-----5.asp">https://www.gonnelli.it/uk/auction-0017-1/boiardo-matteo-maria-orlando-innamorato-----5.asp</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://immaginistampe-limes.cfs.unipi.it/blog/scheda/marca-tipografica-angelieri-giorgio/">https://immaginistampe-limes.cfs.unipi.it/blog/scheda/marca-tipografica-angelieri-giorgio/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://ilpiave.wordpress.com/2021/08/04/tipografia-veneziana-alberti-912/">https://ilpiave.wordpress.com/2021/08/04/tipografia-veneziana-alberti-912/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://italianrarebooks.com/book/giovanni-battista-pigna-historia-de-principi-di-este-di-gio-batt-pigna-1570">https://italianrarebooks.com/book/giovanni-battista-pigna-historia-de-principi-di-este-di-gio-batt-pigna-1570</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.agefotostock.com/age/en/details-photo/mad-orlando-epic-poem-by-ludovico-ariosto-1474-1533-title-page-giovanni-mazzocco-edition-ferrara-1516-ferrara-biblioteca-comunale-ariostea-library/DAE-11154303">https://www.agefotostock.com/age/en/details-photo/mad-orlando-epic-poem-by-ludovico-ariosto-1474-1533-title-page-giovanni-mazzocco-edition-ferrara-1516-ferrara-biblioteca-comunale-ariostea-library/DAE-11154303</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.flickr.com/photos/yalelawlibrary/50718251198">https://www.flickr.com/photos/yalelawlibrary/50718251198</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://marques.crai.ub.edu/es/impresor/a11609606">https://marques.crai.ub.edu/es/impresor/a11609606</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.gonnelli.it/it/asta-0011-2/da-todi-iacopone-le-poesie-spirituali----.asp">https://www.gonnelli.it/it/asta-0011-2/da-todi-iacopone-le-poesie-spirituali----.asp</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://leksikon.muzej-marindrzic.eu/bascarini-niccolo/">https://leksikon.muzej-marindrzic.eu/bascarini-niccolo/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://edoc.hu-berlin.de/bitstream/handle/18452/18714/Andreoli%20-%20final.pdf">https://edoc.hu-berlin.de/bitstream/handle/18452/18714/Andreoli%20-%20final.pdf</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.prphbooks.com/blog/rampazetto">https://www.prphbooks.com/blog/rampazetto</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://darsenarte.wordpress.com/tag/incunaboli/">https://darsenarte.wordpress.com/tag/incunaboli/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://cz.pinterest.com/pin/486811040959624830/">https://cz.pinterest.com/pin/486811040959624830/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.finarte.it/auction/books-autographs-prints-rome-2019-06-20/erizzo-sebastiano-le-sei-giornate-mandate-in-luce-da-m-lodovico-dolce-31974?lang=en">https://www.finarte.it/auction/books-autographs-prints-rome-2019-06-20/erizzo-sebastiano-le-sei-giornate-mandate-in-luce-da-m-lodovico-dolce-31974?lang=en</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://it.wikipedia.org/wiki/Nicol%C3%B2_d%27Aristotele">https://it.wikipedia.org/wiki/Nicol%C3%B2_d%27Aristotele</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.movio.beniculturali.it/uniroma1/livesandlibraries/it/biblioteca-brancacciana">https://www.movio.beniculturali.it/uniroma1/livesandlibraries/it/biblioteca-brancacciana</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://vidoiltiro.com/2021/06/27/la-biblioteca-universitaria-di-bologna-bub/">https://vidoiltiro.com/2021/06/27/la-biblioteca-universitaria-di-bologna-bub/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://eventi.unibo.it/prenotazioni-bub">https://eventi.unibo.it/prenotazioni-bub</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.comunepersiceto.it/la-citta-e-dintorni/cultura-3/itinerari-culturali/visita-al-centro-storico/la-chiesa-collegiata-e-la-torre-civica/">https://www.comunepersiceto.it/la-citta-e-dintorni/cultura-3/itinerari-culturali/visita-al-centro-storico/la-chiesa-collegiata-e-la-torre-civica/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://zero.eu/it/news/chiude-la-biblioteca-di-san-giorgio-in-poggiale-di-via-nazario-sauro/">https://zero.eu/it/news/chiude-la-biblioteca-di-san-giorgio-in-poggiale-di-via-nazario-sauro/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.comune.budrio.bo.it/it-it/vivere-il-comune/galleria-foto">https://www.comune.budrio.bo.it/it-it/vivere-il-comune/galleria-foto</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://eventiculturali.emiliaromagnacultura.it/luogo/bim-biblioteca-comunale-di-imola/">https://eventiculturali.emiliaromagnacultura.it/luogo/bim-biblioteca-comunale-di-imola/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://lingue.unibo.it/it">https://lingue.unibo.it/it</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://auktionsverket.com/arkiv/online/510728/">https://auktionsverket.com/arkiv/online/510728/</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://play.google.com/store/books/details?id=_J1bAAAAcAAJ&rdid=book-_J1bAAAAcAAJ&rdot=1">https://play.google.com/store/books/details?id=_J1bAAAAcAAJ&rdid=book-_J1bAAAAcAAJ&rdot=1</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.edition-originale.com/fr/litterature/livres-illustres/larioste-orlando-furioso-1547-48296">https://www.edition-originale.com/fr/litterature/livres-illustres/larioste-orlando-furioso-1547-48296</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" target="_blank" href="https://www.worthpoint.com/worthopedia/orlando-furioso-mad-roland-poems-1875676848">https://www.worthpoint.com/worthopedia/orlando-furioso-mad-roland-poems-1875676848</a>
+                </li>
+              </ul>
+            </p>
+            <p class="lead text-muted fs-6">
+              Per quanto riguarda i testi, ho raccolto le informazioni da <a class="text-decoration-none" target="_blank" href="https://it.wikipedia.org/wiki/Orlando_furioso">Wikipedia</a> e dai libri <span class="titolo-opera">Leggere l'Orlando Furioso</span> di <span class="nome">Sergio Zatti</span> e <span class="titolo-opera">Frammenti autografi dell'Orlando Furioso</span> di <span class="nome">Santorre Debenedetti</span>.
+            </p>
+            <p class="lead text-muted fs-6">
+              Per la progettazione e la realizzazione del sito mi sono poi servita dei template esistenti su <a class="text-decoration-none" target="_blank" href="https://getbootstrap.com/" title="Bootstrap">Bootstrap</a>, dei tutorials sul sito di <a class="text-decoration-none" target="_blank" title="W3Schools" href="https://www.w3schools.com/howto/default.asp">W3Schools</a>, di <a class="text-decoration-none" target="_blank" title="bbbootstrap.com" href="https://bbbootstrap.com/snippets/horizontal-timeline-53454767">BBBootstrap</a> per la timeline, di <a class="text-decoration-none" target="_blank" title="Lucidchart" href="https://www.lucidchart.com/pages/">Lucidchart</a> per la realizzazione della mappa concettuale e dello schema delle dipendenze, di <a class="text-decoration-none" target="_blank" title="Balsamiq" href="https://balsamiq.com/">Balsamiq</a> per la realizzazione del wireframe e di <a class="text-decoration-none" target="_blank" title="Notion" href="https://www.notion.so/">Notion</a> per l'organizzazione del piano di progetto.
+            </p>
+          </div>
+        </main>
+        <div id="footer" class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2023 Ginevra Pafumi, <a href="https://www.unibo.it/it" title="Università di Bologna" target="_blank" class="text-decoration-none">Università di Bologna</a> <a href= "mailto:ginevra.pafumi@studio.unibo.it" class="text-decoration-none">ginevra.pafumi@studio.unibo.it</a></p>
+            <a href="../../index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="../../logo/logo.png" class="bi me-2" width="70" height="70"></img>
+            </a>
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item">
+                <a href="../bibliografia.html" class="nav-link px-2 text-muted">Bibliografia</a>
+              </li>
+              <li class="nav-item">
+                <a href="web_project_plan.html" class="nav-link px-2 text-muted">Web Project Plan</a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
