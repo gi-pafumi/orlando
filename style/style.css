@@ -12,10 +12,6 @@
     text-decoration: none;
 }
 */
-.paragraph {
-    margin-left: 70px;
-    margin-right: 70px;
-}
 .title {
     color:rgb(255, 255, 255);
     background-image:url(../images/title.jpeg), linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.639));
