@@ -13,7 +13,6 @@
     width: 100%;
 }
 .title .btn:active {
-    background-color: #c29b83;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
